@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/mogu33.png</file>
+        <file>res/return0.png</file>
+    </qresource>
+</RCC>

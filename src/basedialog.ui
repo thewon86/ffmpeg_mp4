@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BaseDialog</class>
+ <widget class="QDialog" name="BaseDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>272</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BaseDialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="cur_datetime">
+    <property name="geometry">
+     <rect>
+      <x>335</x>
+      <y>0</y>
+      <width>145</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>date</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="wifi">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="skin.qrc">:/res/WiFi_32.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>50</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="skin.qrc">:/res/mogu33.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>250</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>系统消息</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStackedWidget" name="base_stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>33</y>
+     <width>480</width>
+     <height>240</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="skin.qrc"/>
+ </resources>
+ <connections/>
+</ui>
